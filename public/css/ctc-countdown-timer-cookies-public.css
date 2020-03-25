@@ -1,0 +1,54 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+
+ 
+#ctc_countdown{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 500;
+	text-align: center;
+	font-size: 70px;
+        width: 100%;
+            line-height: 1.2em;
+                margin-bottom: 20px;
+}
+ 
+#ctc_countdown > div{
+	padding: 8px;
+	border-radius: 3px;
+	background: #e72304;
+	display: inline-block;
+}
+
+#ctc_countdown div > span{
+line-height: 1em;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 14px;
+            line-height: 1em;
+
+}
+.ctc_countdown_product #ctc_countdown{
+        font-size: 50px;
+        margin-top: 5px;
+        margin-bottom: 0px
+}
+@media only screen and (max-width: 458px){
+    #ctc_countdown,.ctc_countdown_product #ctc_countdown{
+        font-size: 30px
+    }
+}
+
+
+ 
