@@ -206,10 +206,11 @@ class Ctc_Countdown_Timer_Cookies_Admin {
         function ctc_countdown_save_metaboxes( $post_id ) {
     
             //checking some data before saving
- 	if ( ! isset( sanitize_text_field($_POST['ctc_countdown_nonce'] )) ) {
+            $ctc_countdown_nonce  = sanitize_text_field($_POST['ctc_countdown_nonce'] );
+ 	if ( ! isset( $ctc_countdown_nonce) ) {
         return;
         }
-        if ( ! wp_verify_nonce( sanitize_text_field($_POST['ctc_countdown_nonce']), 'ctc_countdown_nonce' ) ) {
+        if ( ! wp_verify_nonce( $ctc_countdown_nonce, 'ctc_countdown_nonce' ) ) {
             return;
         }
         if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
