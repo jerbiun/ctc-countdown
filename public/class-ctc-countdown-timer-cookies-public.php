@@ -111,8 +111,10 @@ class Ctc_Countdown_Timer_Cookies_Public {
         public function display_countdown_timer_cookie($attrs){
             
             //check countdown attribut id
-            if(empty($attrs))
+             
+            if(empty($attrs) || !isset($attrs['id']))
                 return esc_html_e('Specify the countdown id please!',$this->plugin_name);
+            
             
             $ctc_id  = (int)$attrs['id'];
             //get countdown options 
