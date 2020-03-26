@@ -9,13 +9,13 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Create a persistent countdown timer to any date/time.
+Create a persistent responsive countdown timer to any date/time.
 
 == Description ==
 
-A very simple plugin to add countdown timer to your wordpress website.
+A very simple plugin to add a responsive countdown timer to your wordpress website with the persistent ability.
 CTC Countdown Timer Cookies timer allow you to create a persistent, nice and functional Countdown timer just in a few minutes.
-You can create countdown timer and display them with shortcode. [ctctimer  id="post_id"]
+You can create responsive countdown timer and display them with shortcode. [ctctimer  id="post_id"]
 
 == Installation ==
  
