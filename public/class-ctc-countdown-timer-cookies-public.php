@@ -120,7 +120,7 @@ class Ctc_Countdown_Timer_Cookies_Public {
             //get countdown options 
             $ctc_options = get_post_meta($ctc_id,'_ctc_countdown_options',true);
             
-            $ctc_options['_ctc_message'] = __('This offre is expired!',$this->plugin_name);
+            $ctc_options['_ctc_message'] = __('<h2>This offre is expired!</h2>',$this->plugin_name);
              //check options of countdown exist
             if(is_array($ctc_options) && !empty($ctc_options)){
             $ctc_options['_ctc_id']  = $ctc_id;
