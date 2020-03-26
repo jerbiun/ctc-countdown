@@ -34,9 +34,12 @@ jQuery(document).ready(function ($) {
         //check conditon of distance 
         if (distance < 0) {
             clearInterval(x);
+            if(ctc_options._ctc_url_redirect === ''){
+                $('#ctc_countdown').html(ctc_options._ctc_message)
+            }else{
             window.location.replace(ctc_options._ctc_url_redirect);
 
-
+            }
         }
     }, 1000);
 
