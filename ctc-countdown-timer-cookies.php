@@ -16,8 +16,8 @@
  * Plugin Name:       CTC Countdown Timer Cookies
  * Plugin URI:        macrosinexcel.com
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.0
- * Author:            Macros in Excel
+ * Version:           1.0.1
+ * Author:            JerbiK
  * Author URI:        https://profiles.wordpress.org/androjerbi/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -35,7 +35,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'CTC_COUNTDOWN_TIMER_COOKIES_VERSION', '1.0.0' );
+define( 'CTC_COUNTDOWN_TIMER_COOKIES_VERSION', '1.0.1' );
 
 /**
  * The code that runs during plugin activation.

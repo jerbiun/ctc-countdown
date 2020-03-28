@@ -25,7 +25,7 @@
  * @since      1.0.0
  * @package    Ctc_Countdown_Timer_Cookies
  * @subpackage Ctc_Countdown_Timer_Cookies/includes
- * @author     Macros in Excel <contact@macrosinexcel.com>
+ * @author     Jerbik <jerbiun@gmail.com>
  */
 class Ctc_Countdown_Timer_Cookies {
 
